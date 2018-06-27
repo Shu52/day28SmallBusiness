@@ -1,0 +1,69 @@
+{
+    
+    "employee":[
+        {
+            "name":"Sathvik"
+        },
+        {
+            "name":"Adelaide"
+        },
+        {
+            "name":"Jenn"
+        },
+        {
+            "name":"Jakebob"
+        },
+        {
+            "name":"Jordan"
+        }
+    ],
+    "department":[
+        {
+            "department":"CEO"
+        },
+        {
+            "department":"Development"
+        },
+        {
+            "department":"Sporting Goods"
+        }
+    ],
+    "computer":[
+        {
+            "computer":"Custom PC"
+        },
+        {
+            "computer":"Mac Pro 8-Core and Dual GPU"
+        },
+        {
+            "computer":"Apple IIe"
+        }
+    ],
+    "employeeStatus":[
+        {
+            "employeeId":0,
+            "departmentId":1,
+            "computerId":1
+        },
+        {
+            "employeeId":1,
+            "departmentId":0,
+            "computerId":0
+        },
+        {
+            "employeeId":2,
+            "departmentId":1,
+            "computerId":1
+        },
+        {
+            "employeeId":3,
+            "departmentId":1,
+            "computerId":1
+        },
+        {
+            "employeeId":4,
+            "departmentId":2,
+            "computerId":2
+        }
+    ]          
+}
