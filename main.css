@@ -1,0 +1,16 @@
+article {
+    border:2px solid black;
+    border-bottom:none;
+    text-align:center;
+    font-size:1.5rem;
+    line-height:1.25rem;
+    padding:15px;
+    border-radius:100px;
+    width:55%;
+    margin:2%;
+    margin-left:25%;
+    background-color:#2f9bbf;
+    color:white;
+    display:inline-table;
+}
+ 

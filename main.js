@@ -30,14 +30,14 @@ getEmployeeStatus().then((statusResponse)=>{
         getEmployee(element.employeeId).then((employeeResponse) =>{
             console.log(employeeResponse.name)
             $artEmployee.text(employeeResponse.name).appendTo(divRef)
-        })
-        getDepartment(element.departmentId).then((departmentResponse)=>{
-            const $paraDepart =$("<p>").addClass("employee-department").text(departmentResponse.department).appendTo($artEmployee)
-            
-        })
-        getComputer(element.computerId).then((computerResponse)=>{
-            const $paraComputer =$("<p>").addClass("employee-computer").text(computerResponse.computer).appendTo($artEmployee)
-            
+            getDepartment(element.departmentId).then((departmentResponse)=>{
+                const $paraDepart =$("<p>").addClass("employee-department").text(departmentResponse.department).appendTo($artEmployee)
+                    getComputer(element.computerId).then((computerResponse)=>{
+                        const $paraComputer =$("<p>").addClass("employee-computer").text(computerResponse.computer).appendTo($artEmployee)
+                    
+                })
+                
+            })
         })
     }
 )
